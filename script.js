@@ -2,7 +2,7 @@
 let student = {
 	name:'Anirudh',
 	getKeys:()=>{
-		let arr = Object.keys();
+		let arr = Object.keys(student);
 		return arr;
 	}
 } 
