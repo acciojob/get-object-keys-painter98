@@ -4,6 +4,6 @@ let student = {
 }
 let arr = Object.keys(student);
 
-student.object = function(){
+student.getKeys = function(){
     return arr;
 }
