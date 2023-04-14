@@ -7,8 +7,3 @@ let student = {
 	}
 
 let keys = student.getKeys();
-
- const myObj = { name: "John", age: 30, city: "New York" }; 
-		Object.prototype.getKeys = ()=>{
-		return Object.keys(myObj);
-	}
