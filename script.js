@@ -1,8 +1,8 @@
 //your JS code here. If required.
 let student = {
-	name:'Anirudh',
+	name:'Anirudh'
 }
-student.getKeys = function(){
+	Object.prototype.getKeys = ()=>{
 		return Object.keys(student);
 	}
 
